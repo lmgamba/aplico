@@ -1,0 +1,27 @@
+# --- private study material: MUST NEVER reach the public repo ---
+docs/study/
+
+# --- secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- java / maven ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.log
+
+# --- node / angular ---
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+
+# --- ide / os ---
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
